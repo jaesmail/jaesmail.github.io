@@ -1,7 +1,7 @@
 ---
 title: "How To Shorten The Time to Learn Anything"
 layout: post
-date: 2018-11-09 11:20
+date: 2018-09-11 11:20
 image: 
 headerImage: false
 tag:
