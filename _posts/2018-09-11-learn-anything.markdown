@@ -31,7 +31,7 @@ Eric Ties, author of [The Lean Startup](https://www.amazon.com/Lean-Startup-Entr
 
 And a founder never _wants_ to fail.
 
-![](&&&SFLOCALFILEPATH&&&69ED9C38-8F85-4787-B0A1-2CA0927E524B.png)
+![](/assets/images/leanstartup.jpg)
 
 That’s why [Lean Startup Methodology](http://theleanstartup.com/principles) preaches tight feedback loops — the shorter the amount of time between an action and its feedback, the more effectively you can move. You are less likely to waste time doing something wrong. You are able to dive deep into a topic with the confidence that you are on the right track.
 
