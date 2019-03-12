@@ -1,0 +1,145 @@
+body {
+  font-family: "Overpass";
+  background-color: white;
+  color: #404040;
+  font-size: 1.3em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body a {
+  color: #1181fb;
+}
+
+.centerdiv {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.aligntopdiv {
+  display: flex;
+}
+
+.connectwithme {
+  display: none;
+}
+
+.top {
+  display: inline-block;
+  max-width: 700px;
+  margin: auto;
+  padding: 1.5em;
+}
+
+.top-heading,
+.currentwork,
+.sidework,
+.top-title,
+.oldwork {
+  margin-top: 1em;
+}
+
+.top-heading {
+  display: inline;
+}
+
+.top-title {
+  font-weight: 800;
+  display: inline;
+}
+
+.company-logo {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.company-name {
+  text-decoration: underline;
+  display: inline-block;
+  font-weight: 600;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: -5px;
+}
+
+.company-name > a:hover {
+  color: unset;
+}
+
+.company-name > img {
+  margin-right: 2px;
+}
+
+.work-item {
+  display: inline;
+}
+
+.spc {
+  color: #daa563 !important;
+  --background-color: #f6e9d8;
+  --dark-version: #a47c4a;
+}
+
+.trustedfor {
+  color: #1181fb !important;
+  --background-color: #c4e0fe;
+  --dark-version: #0d61bc;
+}
+
+.launch {
+  color: #red !important;
+  --background-color: #e7c1c7;
+  --dark-version: #780416;
+}
+
+.farley {
+  color: #purple !important;
+  --background-color: #ede7bf;
+  --dark-version: #897600;
+}
+
+.mcsa {
+  color: #purple !important;
+  --background-color: #c4e0fe;
+  --dark-version: #0d61bc;
+}
+
+.nu {
+  color: purple !important;
+  --background-color: #dfdbf6;
+  --dark-version: #5f54a5;
+}
+
+.garage {
+  color: purple !important;
+  --background-color: #c5cfde;
+  --dark-version: #122f5d;
+}
+
+.linknote {
+  color: blue !important;
+  --background-color: #fadbd7;
+  --dark-version: #b05448;
+}
+
+.email {
+  color: inherit !important;
+  --background-color: #dbdbdb;
+  --dark-version: #545454;
+}
+
+.spc:hover,
+.trustedfor:hover,
+.launchpad:hover,
+.gwf:hover,
+.default:hover,
+.solveriq:hover,
+.riceuniv:hover,
+.wildfire:hover,
+.email:hover {
+  background-color: var(--background-color);
+  color: var(--dark-version) !important;
+  transition: background-color 0.05s ease-in, color 0.05s ease-in;
+}
