@@ -1,20 +1,59 @@
 body {
   font-family: "Overpass";
-  background-color: white;
-  color: #404040;
+  background-color: #2d2d2d;
+  color: white;
   font-size: 1.3em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 body a {
-  color: #1181fb;
+  color: white;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.top-header
+{
+  display: inline-block;
+  font-weight: 600;
+  border-radius: 5px;
+  padding-left: 0px;
+  padding-right: 5px;
+  margin-right: -5px;
+}
+.nav p {
+  display:inline;
 }
 
 .centerdiv {
   display: flex;
   align-items: center;
   height: 100vh;
+}
+
+.highlight {
+    background-color: #E6C131;
+}
+
+a:hover {
+  background-color: #E6C131;
+  color: white;
+  color: unset;
+
+}
+
+a {
+  text-decoration: underline;
+  display: inline-block;
+  font-weight: 600;
+  border-radius: 5px;
+  padding-left: 0px;
+  padding-right: 5px;
+  margin-right: -5px;
 }
 
 .aligntopdiv {
@@ -30,6 +69,11 @@ body a {
   max-width: 700px;
   margin: auto;
   padding: 1.5em;
+}
+
+.top-header {
+  font-size: 1.5em;
+  font-style: bold;
 }
 
 .top-heading,
@@ -54,19 +98,6 @@ body a {
   height: 1.2em;
 }
 
-.company-name {
-  text-decoration: underline;
-  display: inline-block;
-  font-weight: 600;
-  border-radius: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-right: -5px;
-}
-
-.company-name > a:hover {
-  color: unset;
-}
 
 .company-name > img {
   margin-right: 2px;
