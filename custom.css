@@ -1,0 +1,171 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body {
+  font-family: "Inter";
+  background-color: #f8f8ff;
+  color: black;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body a {
+  color: #774ee0;
+}
+
+.centerdiv {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.aligntopdiv {
+  display: flex;
+}
+
+.connectwithme {
+  display: none;
+}
+
+.centerit {
+  text-align: center;
+}
+
+.top {
+  display: inline-block;
+  max-width: 675px;
+  margin: auto;
+  padding: 1.5em;
+}
+
+.top-heading,
+.currentwork,
+.sidework,
+.top-title,
+.oldwork {
+  margin-top: 1em;
+}
+
+.top-heading {
+  display: inline;
+}
+
+.top-title {
+  font-weight: 600;
+  display: block;
+}
+
+b{
+  font-weight: 600;
+}
+
+.company-logo {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.company-name {
+  text-decoration: underline;
+  display: inline-block;
+  font-weight: 600;
+  border-radius: 4px;
+  padding-right: 5px;
+  margin-right: -5px;
+  padding-left: 5px;
+  margin-left: -5px;
+}
+
+.company-name > a:hover {
+  color: unset;
+}
+
+.work-item {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.company-name:hover,
+.email:hover {
+  background-color: #774ee0;
+  color: #f8f8ff !important;
+  transition: background-color 0.05s ease-in, color 0.05s ease-in;
+}
+
+.company-name > a {
+  color: #774ee0;
+}
+
+.top-title.notif {
+    display: block;
+    background-color: #019980;
+    padding: 9px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 1em;
+}
+
+.currentthing{
+  padding: 16px 16px;
+  box-shadow: inset 0 0 0 2px #774ee0;
+  border-radius: 6px;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+
+.work-heading{
+  padding-right: 8px;
+  margin-top: 16px;
+    padding-left: 8px;
+  margin-bottom: 8px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+/* Tooltip container */
+.tooltip {
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.current-recent{
+    margin-top: 8px;
+  display: block;
+}
+
+.current-recent > a{
+  text-decoration: underline;
+  color: #585191;
+}
+
+.section{
+  margin-top: 16px !important;
+  display: inline-block;
+}
